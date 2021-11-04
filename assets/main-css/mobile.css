@@ -1,0 +1,70 @@
+        .mobile-services {
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+        
+        .mobile-services ul li {
+            display: inline-block;
+            margin-right: 20px;
+            font-size: 18px;
+            min-width: 10%;
+        }
+        
+        .mobile-services .icon-box {
+            text-align: center;
+        }
+        
+        .mobile-services img {
+            width: 100%;
+            height: auto;
+            max-width: 140.35px;
+        }
+        
+        .mobile-services .list-icon {
+            max-width: 100%;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            -webkit-flex-wrap: nowrap;
+            -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-align-content: center;
+            -ms-flex-line-pack: center;
+            align-content: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+        
+        @media screen and (min-width: 1451px) {
+            .icon-box h3 {
+                font-size: 22px;
+            }
+        }
+        
+        @media screen and (max-width: 1450px) {
+            .icon-box h3 {
+                font-size: 18px;
+                margin-right: 15px;
+            }
+        }
+        
+        @media screen and (max-width: 1024px) {
+            .icon-box h3 {
+                font-size: 15px;
+                margin-right: 10px;
+            }
+        }
+        
+        @media screen and (max-width: 768px) {
+            .icon-box h3 {
+                font-size: 9px;
+                margin-right: 5px;
+            }
+        }

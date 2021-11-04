@@ -1,0 +1,42 @@
+
+
+@media only screen and (max-width: 767px) {
+	
+  	.ppb_fullwidth_button { text-align: center; }
+  	.ppb_fullwidth_button h2.title { float: none; width: 100%; }
+  	.ppb_fullwidth_button .button { float: none; margin-top: 10px; }
+
+  	h2.ppb_title { font-size: 24px !important; margin-top: 10px; }
+  	h2.ppb_title .ppb_title_first { font-size: 18px; margin-bottom: 15px; }
+  	#footer_before_widget_text { width: 85%; }
+  	#toTop { right: 10px; }
+
+	.standard_wrapper
+	{
+		width: 100%;
+		padding: 0 20px 0 20px;
+	}
+	
+	.parallax
+	{
+		z-index: 0;
+		clear: both;
+	}
+	
+	.one.ppb_header_youtube, .one.ppb_header_vimeo, .ppb_header.parallax.withbg
+	{ 
+		padding: 100px 20px 100px 20px !important;
+	}
+	
+	.ppb_content_center_bg .one_third
+	{
+		width: 100%;
+	}
+	
+}
+
+/* 
+#Mobile (Landscape)
+================================================== 
+*/
+
